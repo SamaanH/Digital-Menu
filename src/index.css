@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-Color: rgb(243,241,239);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.white{
+    filter: invert(99%) sepia(14%) saturate(0%) hue-rotate(247deg) brightness(117%) contrast(100%);
+}
+
+.input{
+    @apply border-2 border-black my-4 px-3;
+}
+.button{
+    @apply px-3 mx-2 border-2 border-gray-500 bg-gray-200 rounded-md;
+}
+.deleteButton{
+    @apply px-3 mx-2 border-2 text-white border-gray-500 rounded-md bg-red-600;
+}
