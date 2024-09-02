@@ -1,7 +1,7 @@
 import HeroBg from "./assets/Restaurant.jpg";
 import Card from "./Card";
 import Breakfast from "./assets/Breakfast.jpg"
-import hotMeal from "./assets/hotMeal.jpg"
+import hotMeal from "./assets/HotMeal.jpg"
 import Salad from "./assets/Salad.jpg"
 import Dessert from "./assets/desert.jpg"
 
