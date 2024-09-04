@@ -9,30 +9,30 @@ function DigitalMenu() {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="lg:w-3/4  md:w-full">
-          <div className="relative h-28 bg-black">
-            <img src={HeroBg} alt="" className="w-full object-cover" />
+        <div className="w-full  lg:w-3/4">
+          <div className="relative h-28">
+            <img src={HeroBg} alt="" className="h-28 w-full object-cover" />
             
-             <span id="LangSelector" className="absolute top-16 right-3 text-[11px]">
+             <span id="LangSelector" className="absolute top-16 right-3 text-[11px] ">
                 <select name="" id="" className="rounded-[4px] pr-6 py-[1px] text-gray-800 outline-none">
-                    <option value="">Kurdish</option>
-                    <option value="">English</option>
-                    <option value="">Arabic</option>
+                    <option value="kurdish">Kurdish</option>
+                    <option value="english">English</option>
+                    <option value="arabic">Arabic</option>
                 </select>
             </span>
     { /* ----------MAIN-------- */ }
             <div id="Main" className="rounded-2xl bg-white w-full py-6 px-[10px] absolute top-[87px] flex flex-col ">
-              <h1 className="text-2xl mb-3">OddMenu</h1>
+              <h1 className="sm:text-2xl text-3xl mb-3">OddMenu</h1>
 
-            <div id="Location&Phone" className="text-[9px] text-gray-600 font-[500] flex items-center">
-                <div id="Location" className="flex">
+            <div id="Location&Phone" className="sm:text-[9px] text-[13px] text-gray-600 font-[500] flex items-center">
+                <div id="Location" className="flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="size-3"
+                    class="size-4"
                   >
                     <path
                       stroke-linecap="round"
@@ -48,14 +48,14 @@ function DigitalMenu() {
                   <a href="">Tanahi, Duhok, Kurdistan</a>
                 </div>
 
-                <div id="PhoneNum" className="flex ml-4">
+                <div id="PhoneNum" className="flex ml-4 items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="size-3"
+                    class="size-4 "
                   >
                     <path
                       stroke-linecap="round"
@@ -69,16 +69,16 @@ function DigitalMenu() {
               </div>
 
               <article id="Paragraph">
-                <p className="text-[9px] text-gray-600 font-[400] my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque corporis repellat suscipit pariatur ut, animi dolor sed tenetur saepe vel quaerat quidem beatae temporibus accusantium veniam doloribus iste repellendus ea!</p>
+                <p className="sm:text-[9px] text-[12px] text-gray-600 font-[400] my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque corporis repellat suscipit pariatur ut, animi dolor sed tenetur saepe vel quaerat quidem beatae temporibus accusantium veniam doloribus iste repellendus ea!</p>
               </article>
 
               <div id="Buttons">
-                <button className="bg-[#bc9854] text-white text-[11px] font-semibold rounded-2xl px-2 py-[3px]">Main menu</button>
-                <button className="border-2 border-[#bc9854] text-[#bc9854] text-[11px] font-bold rounded-2xl px-2 py-[3px] ml-2">Bar</button>
+                <button className="bg-[#bc9854] text-white sm:text-[11px] text-[15px] font-semibold rounded-2xl px-2 py-[3px]">Main menu</button>
+                <button className="border-2 border-[#bc9854] text-[#bc9854] sm:text-[11px] text-[15px] font-bold rounded-2xl px-2 py-[3px] ml-2">Bar</button>
               </div>
 
-              <div id="SearchBox" className="bg-gray-200 rounded-full flex items-center my-5 py-[3px]">
-                <input type="text" className="bg-transparent text-[9px] pl-3 w-full py-1 outline-none" placeholder="Search"/>
+              <div id="SearchBox" className="bg-gray-200 rounded-full flex items-center sm:h-auto h-8 my-5 py-[5px] sm:py-[3px]">
+                <input type="text" className="bg-transparent sm:text-[9px] text-[12px] pl-3 w-full py-1 outline-none" placeholder="Search"/>
                 <button className="bg-white h-full px-1 rounded-full mr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
